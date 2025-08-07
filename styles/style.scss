@@ -2213,7 +2213,7 @@ main {
                 .banner-container {
                     flex-direction: column-reverse;
                     align-items: center;
-                    margin: 0 !important;
+                    margin: 5rem 0 0 !important;
                     padding: 0 !important;
                     .banner-container_left {
                         max-width: 100%;
@@ -2361,6 +2361,7 @@ main {
             }
             .intro-container {
                 flex-direction: column;
+                display: flex;
                 .intro-container_text {
                     position: relative !important;
                     text-align: center;
@@ -2472,7 +2473,7 @@ main {
         }
         #footer {
             gap: 4rem !important;
-            padding: 3rem 5rem !important;
+            padding: 0 5rem 3rem !important;
             flex-direction: column;
             .footer-left {
                 width: 100%;

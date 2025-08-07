@@ -1895,7 +1895,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
   main .section-group #banner .banner-container {
     flex-direction: column-reverse;
     align-items: center;
-    margin: 0 !important;
+    margin: 5rem 0 0 !important;
     padding: 0 !important;
   }
   main .section-group #banner .banner-container .banner-container_left {
@@ -2028,6 +2028,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
   main #intro .intro-container {
     flex-direction: column;
+    display: flex;
   }
   main #intro .intro-container .intro-container_text {
     position: relative !important;
@@ -2125,7 +2126,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
   main #footer {
     gap: 4rem !important;
-    padding: 3rem 5rem !important;
+    padding: 0 5rem 3rem !important;
     flex-direction: column;
   }
   main #footer .footer-left {
