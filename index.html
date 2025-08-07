@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PENGUIN CRAFT</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <main>
+            <div class="section-group">
+                <section id="banner">
+                    <div class="banner-header">
+                        <div class="logo">PENGUIN CRAFT</div>
+                        <div class="nav">
+                            <div>About</div>
+                            <div>Swap</div>
+                            <div>How to Buy</div>
+                            <div>Stake</div>
+                            <div>
+                                More
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 640"
+                                >
+                                    <path
+                                        d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="btn-buy">
+                            <a href="#">
+                                <button class="buy-now">Buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="banner-header_mb" style="display: none">
+                        <div class="header-mb">
+                            <div class="logo">
+                                <img
+                                    src="./asset/image/banner2.png"
+                                    alt="Logo"
+                                />
+                            </div>
+
+                            <div class="menu" id="menu-toggle">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 640"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <path
+                                        d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="sub-menu-overlay" id="submenu">
+                            <div class="sub-menu-content">
+                                <div class="close-menu" id="menu-close">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 640 640"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <path
+                                            d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"
+                                        />
+                                    </svg>
+                                </div>
+
+                                <ul>
+                                    <li>About</li>
+                                    <li>Swap</li>
+                                    <li>How to Buy</li>
+                                    <li>Stake</li>
+                                    <li>
+                                        More
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </li>
+                                    <li>
+                                        <div class="btn-buy">
+                                            <a href="#"
+                                                ><button class="buy-now">
+                                                    Buy now
+                                                </button></a
+                                            >
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-container">
+                        <div class="banner-container_left">
+                            <div class="container-left-top">
+                                <img
+                                    src="./asset/image/banner1.png"
+                                    alt="galaxy"
+                                />
+                            </div>
+                            <div class="container-left-center">
+                                <div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the
+                                        printing
+                                    </p>
+                                    <p>
+                                        and typesetting industry. Lorem Ipsum
+                                        has been
+                                    </p>
+                                    <p>the industry's standard .</p>
+                                </div>
+                                <div class="ca-code">
+                                    <span class="code-text"
+                                        >4S94Bfigd8f235dHkI04JfkXs51tPump</span
+                                    >
+                                    <button
+                                        class="copy-button"
+                                        onclick="copyCode(this)"
+                                    >
+                                        Copy
+                                        <div class="tooltip">Copied!</div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-left-bottom">
+                                <h4>Join the community</h4>
+                                <div class="banner-social">
+                                    <a class="social telegram">
+                                        <img
+                                            src="./asset/image/s1.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social tiktok">
+                                        <img
+                                            src="./asset/image/s2.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social X">
+                                        <img
+                                            src="./asset/image/s3.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social discord">
+                                        <img
+                                            src="./asset/image/s4.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social instagram">
+                                        <img
+                                            src="./asset/image/s5.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-container_right">
+                            <img
+                                src="./asset/image/banner2.png"
+                                alt="neko-cat"
+                                class="pc"
+                            />
+                            <img
+                                src="./asset/image/banner2mb.png"
+                                alt="neko-cat"
+                                class="mb"
+                                style="display: none"
+                            />
+                        </div>
+                    </div>
+                    <div class="warning-container_reverse">
+                        <div class="warning-track">
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                        </div>
+                    </div>
+                    <div class="warning-container">
+                        <div class="warning-track">
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                        </div>
+                    </div>
+                </section>
+                <section id="about">
+                    <div class="about-container">
+                        <div class="about-bg"></div>
+                        <div class="tablet-about">
+                            <img src="./asset/image/neko.png" alt="neko" />
+                        </div>
+                        <div class="about-content">
+                            <h1>PENGUIN CRAFT</h1>
+                            <div>
+                                <p>
+                                    The day had begun on a bright note. The sun
+                                    finally peeked through the rain for the
+                                    first time in a week, and the birds were
+                                    singing in its warmth. There was no way to
+                                    anticipate what was about to happen. It was
+                                    a worst-case scenario and there was no way
+                                    out of it.
+                                </p>
+                            </div>
+                            <div class="about-btn">
+                                <button class="about-btn-buy">Buy now</button>
+                                <button class="about-btn-earn">
+                                    Stake and earn
+                                </button>
+                            </div>
+                            <div class="about-content-bottom">
+                                <h4>Join the community</h4>
+                                <div class="about-social">
+                                    <a class="social telegram">
+                                        <img
+                                            src="./asset/image/s1.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social tiktok">
+                                        <img
+                                            src="./asset/image/s2.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social X">
+                                        <img
+                                            src="./asset/image/s3.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social discord">
+                                        <img
+                                            src="./asset/image/s4.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a class="social instagram">
+                                        <img
+                                            src="./asset/image/s5.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contract">
+                    <div class="contract-content">
+                        <div class="contract-content_left">
+                            <img
+                                src="./asset/image/galaxy-m.png"
+                                alt="galaxy"
+                            />
+                        </div>
+                        <div class="contract-content_right">
+                            <div class="swap">
+                                <img src="./asset/image/swap.png" alt="" />
+                            </div>
+                            <img
+                                src="./asset/image/Swap-Widget.png"
+                                alt="Swap-Widget"
+                            />
+                        </div>
+                    </div>
+                    <div class="contract-code">
+                        <h4>Solana Contract Address</h4>
+                        <div class="ca-code">
+                            <span class="code-text"
+                                >4S94Bfigd8f235dHkI04JfkXs51tPump</span
+                            >
+                            <button
+                                class="copy-button"
+                                onclick="copyCode(this)"
+                            >
+                                Copy
+                                <div class="tooltip">Copied!</div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="warning-container_reverse">
+                        <div class="warning-track">
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                        </div>
+                    </div>
+                    <div class="warning-container">
+                        <div class="warning-track">
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                            <span class="warning-item">PENGUIN CRAFT - </span>
+                        </div>
+                    </div>
+                </section>
+                <section id="intro">
+                    <h2>Tokenomics</h2>
+                    <div class="intro-container">
+                        <div class="chart">
+                            <img src="./asset/image/polygon.png" alt="chart" />
+                        </div>
+                        <div class="intro-container_text top-left">
+                            <span>Team</span>
+                            <div>
+                                <p>Benny was tired. Not the normal every</p>
+                                <p>day tired from a hard day o work. The</p>
+                                <p>exhausted type of tired where you're</p>
+                                <p>surprised your body can even move.</p>
+                            </div>
+                        </div>
+                        <div class="intro-container_text top-right">
+                            <span>Team</span>
+                            <div>
+                                <p>Benny was tired. Not the normal every</p>
+                                <p>day tired from a hard day o work. The</p>
+                                <p>exhausted type of tired where you're</p>
+                                <p>surprised your body can even move.</p>
+                            </div>
+                        </div>
+                        <div class="intro-container_text bot-left">
+                            <span>Team</span>
+                            <div>
+                                <p>Benny was tired. Not the normal every</p>
+                                <p>day tired from a hard day o work. The</p>
+                                <p>exhausted type of tired where you're</p>
+                                <p>surprised your body can even move.</p>
+                            </div>
+                        </div>
+                        <div class="intro-container_text bot-right">
+                            <span>Team</span>
+                            <div>
+                                <p>Benny was tired. Not the normal every</p>
+                                <p>day tired from a hard day o work. The</p>
+                                <p>exhausted type of tired where you're</p>
+                                <p>surprised your body can even move.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section id="product">
+                <h2>Stake and earn</h2>
+                <div class="para">
+                    <p>
+                        The day had begun on a bright note. The sun finally
+                        peeked through the rain for the first time in a week,
+                    </p>
+                    <p>
+                        and the birds were singing in its warmth. There was no
+                        way to anticipate what was about to happen. It
+                    </p>
+                    <p>
+                        was a worst-case scenario and there was no way out of
+                        it.
+                    </p>
+                </div>
+                <div class="product-container">
+                    <div class="product-left">
+                        <div class="wrapper-rocket">
+                            <div class="rocket">
+                                <img
+                                    src="./asset/image/rocket.png"
+                                    alt="rocket"
+                                />
+                            </div>
+                            <img src="./asset/image/bgp.png" alt="" />
+                        </div>
+                        <div class="product-left_title">
+                            <div class="apr">5% APR</div>
+                            <div class="months">3 months</div>
+                        </div>
+                        <p>Enter the amount you wish to sake</p>
+                        <div class="product-left_button">
+                            <div class="price">100,000 $DOGCOIN</div>
+                            <div class="stake">Stake</div>
+                        </div>
+                    </div>
+                    <div class="product-right">
+                        <div class="wrapper-ufo">
+                            <div class="ufo">
+                                <img src="./asset/image/ufo.png" alt="ufo" />
+                            </div>
+                            <img src="./asset/image/bgp.png" alt="" />
+                        </div>
+                        <div class="product-right_title">
+                            <div class="apr">10% APR</div>
+                            <div class="months">6 months</div>
+                        </div>
+                        <p>Enter the amount you wish to sake</p>
+                        <div class="product-right_button">
+                            <div class="price">100,000 $DOGCOIN</div>
+                            <div class="stake">Stake</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="warning-container_reverse">
+                    <div class="warning-track">
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                    </div>
+                </div>
+                <div class="warning-container">
+                    <div class="warning-track">
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                        <span class="warning-item">PENGUIN CRAFT - </span>
+                    </div>
+                </div>
+            </section>
+            <section id="payment">
+                <div class="payment-title">
+                    <span> Buy Now with a </span>
+                    <span> Debit Card or Crypto </span>
+                </div>
+                <div class="payment-card">
+                    <div class="card">
+                        <img src="./asset/image/visa.png" alt="" />
+                    </div>
+                    <div class="card">
+                        <img src="./asset/image/solanabig.png" alt="" />
+                    </div>
+                    <div class="card">
+                        <img src="./asset/image/apay.png" alt="" />
+                    </div>
+                </div>
+                <div class="payment-moonshot">
+                    <img src="./asset/image/image 7.png" alt="" />
+                </div>
+                <div class="btn-buy">
+                    <button class="buy-now">Buy now</button>
+                </div>
+            </section>
+            <section id="community">
+                <div class="community-container">
+                    <div class="community-container_text">
+                        <span>Join the community</span>
+                        <div class="para-comm">
+                            <p>
+                                The day had begun on a bright note. The sun
+                                finally
+                            </p>
+                            <p>
+                                peeked through the rain for the first time in a
+                                week,
+                            </p>
+                            <p>and the birds were singing in its warmth.</p>
+                        </div>
+                        <div class="community-social">
+                            <a class="social telegram">
+                                <img src="./asset/image/s1.png" alt="" />
+                            </a>
+                            <a class="social tiktok">
+                                <img src="./asset/image/s2.png" alt="" />
+                            </a>
+                            <a class="social X">
+                                <img src="./asset/image/s3.png" alt="" />
+                            </a>
+                            <a class="social discord">
+                                <img src="./asset/image/s4.png" alt="" />
+                            </a>
+                            <a class="social instagram">
+                                <img src="./asset/image/s5.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contract-code">
+                    <h4>Solana Contract Address</h4>
+                    <div class="ca-code">
+                        <span class="code-text"
+                            >4S94Bfigd8f235dHkI04JfkXs51tPump</span
+                        >
+                        <button class="copy-button" onclick="copyCode(this)">
+                            Copy
+                            <div class="tooltip">Copied!</div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="footer">
+                <div class="footer-left">
+                    <div class="footer-left_title">
+                        <span> PENGUIN CRAFT </span>
+                    </div>
+                    <div class="footer-left_content">
+                        <p>
+                            The day had begun on a bright note. The sun finally
+                        </p>
+                        <p>
+                            peeked through the rain for the first time in a
+                            week,
+                        </p>
+                        <p>and the birds were singing in its warmth.</p>
+                    </div>
+                    <div class="copy-right">
+                        @PENGUIN CRAFT 2025 All rights reserved.
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-nav">
+                        <ul>
+                            <li>About</li>
+                            <li>Tokenomics</li>
+                            <li>How to buy?</li>
+                            <li>Stake</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="footer-community">
+                        <span>Community:</span>
+                        <div class="footer-social">
+                            <a class="social telegram mb">
+                                <img src="./asset/image/s1.png" alt="" />
+                            </a>
+                            <a class="social tiktok mb">
+                                <img src="./asset/image/s2.png" alt="" />
+                            </a>
+                            <a class="social X mb">
+                                <img src="./asset/image/s3.png" alt="" />
+                            </a>
+                            <a class="social discord mb">
+                                <img src="./asset/image/s4.png" alt="" />
+                            </a>
+                            <a class="social instagram mb">
+                                <img src="./asset/image/s5.png" alt="" />
+                            </a>
+                            <div class="social-box">
+                                <a class="social telegram">
+                                    <img src="./asset/image/s1.png" alt="" />
+                                </a>
+                                <a class="social tiktok">
+                                    <img src="./asset/image/s2.png" alt="" />
+                                </a>
+                                <a class="social X">
+                                    <img src="./asset/image/s3.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="social-box">
+                                <a class="social discord">
+                                    <img src="./asset/image/s4.png" alt="" />
+                                </a>
+                                <a class="social instagram">
+                                    <img src="./asset/image/s5.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="./main.js"></script>
+</html>
